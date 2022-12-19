@@ -11,6 +11,7 @@
 //     .then((weatherObj) => console.log(weatherObj));
 
 // fetch().then().catch()
+
 // REST API // API methods: GET POST PUT DELETE
 fetch('https://api.openweathermap.org/data/2.5/weather?q=paris&appid=ee1542e6b50640acc0e024481c773615')
     .then(response => {
@@ -63,6 +64,7 @@ function Weather(object){
 const test = function () {
 
 }
+
 // arrow function: just another way of writting functions ES6
 
 const testArrow = () => {
